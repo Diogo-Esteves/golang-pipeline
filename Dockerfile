@@ -1,6 +1,6 @@
 FROM golang:1.16.4-buster AS builder
 
-ARG VERSION=dev
+ARG VERSION=1.0.2
 
 WORKDIR /go/src/app
 COPY main.go .
